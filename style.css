@@ -9,7 +9,7 @@ html{
 :root {
     --primary-color: #2422b6;
     --off-white: #F3F4F6;
-    --dark-gray: #6B7280;
+    --sky-blue:   #77b0f1b0;
 }
 body{
     font-family: 'Kaisei Tokumin', serif;
@@ -22,6 +22,7 @@ hr{
     text-align: center;
     text-decoration:underline;
     color: var(--primary-color);
+    background-color: var(--sky-blue);
 }
 .head-img{
     margin:auto;
@@ -31,6 +32,9 @@ hr{
 section{
     display: block;
     background-color: var(--off-white);
+    text-align: center;
+    color: var(--primary-color);
+    font-weight: bold;
 }
 textarea{
     display: block;
@@ -41,4 +45,49 @@ textarea{
     border-style: solid;
     text-align: center;
     padding: 1rem 2rem;
+}
+#btn{
+    border-style: solid;
+    border: 3px solid;
+    display: block;
+    margin: auto;
+    color: var(--primary-color);
+    font-weight: bolder;
+    width: 200px;
+    height: 40px;
+    background-color: var(--sky-blue);
+}
+div{
+    display: block;
+    margin: auto;
+    color: #2422b6;
+    text-align: center;
+    display: block;
+    margin: auto;
+   
+    text-align: center;
+    border: var(--primary-color);
+    border-style: solid;
+    width: 484px;
+    height: 162px;
+}
+
+#output{
+    background-color: var(--sky-blue);
+   
+    
+        height: 120px;
+        width: 500px;
+        display: block;
+        margin: auto;
+        border: var(--primary-color);
+        border-width: 4px;
+        border-style: solid;
+        padding: 1rem 1rem
+}
+footer{
+    background-color: var(--sky-blue);
+    color: var(--primary-color);
+    text-align: center;
+    display: block;
 }
