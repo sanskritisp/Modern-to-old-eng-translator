@@ -6,15 +6,39 @@ html{
 *{
     box-sizing: border-box;
 }
+:root {
+    --primary-color: #2422b6;
+    --off-white: #F3F4F6;
+    --dark-gray: #6B7280;
+}
 body{
     font-family: 'Kaisei Tokumin', serif;
+}
+hr{
+    color: var(--primary-color);
+    border: 1px solid;
 }
 .head{
     text-align: center;
     text-decoration:underline;
+    color: var(--primary-color);
 }
 .head-img{
     margin:auto;
     width: 280px;
     height: 80px
+}
+section{
+    display: block;
+    background-color: var(--off-white);
+}
+textarea{
+    display: block;
+    margin: auto;
+    width: 450px;
+    height: 150px;
+    border: var(--primary-color);
+    border-style: solid;
+    text-align: center;
+    padding: 1rem 2rem;
 }
