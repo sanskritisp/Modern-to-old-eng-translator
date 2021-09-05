@@ -1,1 +1,1 @@
-This ia a super interesting app. Ever tried of making signs of what you speak, faced problem - Here i have came up with a solution for you. Type your feeling or statement and it will provide you the sign language of that.
+This ia a super interesting app. Ever thought that what was the history of the most verbally spoken language english. Here , you have a chance with this modern to old english translator. Have fun while chcking the old english version of your modern text.
